@@ -5,7 +5,6 @@ date:   2016-09-06 17:73:00 +0100
 categories: apprenticeship
 ---
 
-![Ruby books]({{ site.url }}/assets/ruby_cover.jpg)
 Every week 8th Light organises workshop for their apprentices to develop their knowledge in software development.
 
 Today the theme of the workshop was refactoring and was presented by Dave. He also made us work on a kata in pairs in which I worked Mollie. It was really interesting when it came to challenge our different approaches.
