@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "First workshop"
+title:  "First Workshop"
 date:   2016-09-06 14:42:51 +0100
 categories: apprenticeship
 ---
