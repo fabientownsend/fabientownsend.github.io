@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "First Day at 8th Light"
+date:   2016-09-07 10:42:51 +0100
+categories: apprenticeship
+---
+
+![keyboard MacBook pro]({{ site.url }}/assets/keyboard.jpg)
+I received my work laptop yesterday.
+I'm super happy with it but I also feel less productive with it since I never had the opportunity to use a mac.
+It is just a matter of time to be more comfortable with it.
+
+I started to install and configure my software after the really cool Zagaky by Sarah.
+As I try to keep things simple, I only installed the software that I really need:
+
+- vim
+- tmux
+- iTerm2
+
+Do I really need anything else? For now, no, but I will ask my colleague what they use.
+I may discover new really cool tools, and develop my way to work.
+
+I saved a couple of hours of configuration by using my previous configurations that I hosted online on a [github repository](https://github.com/fabientownsend/echoserver).
+
+In the afternoon, Christoph reviewed my [EchoServer](https://github.com/fabientownsend/echoserver),
+I was impressed how quickly he offered suggestions to help me improve my work and how quickly he could answer all my questions.
+It was really technical and showed confidence in his abilities.
+
+After the second review with Christoph, I feel like I really need to be more
+careful with these different points:
+
+- Avoid global variable, even for my tests
+- Avoid bad naming, even for a quick dirty check
+- Keep my tests clean!
+
+Oh, I nearly forgot to mention that today I didn't miss any buses, trains or get lost.
+It's the first time and I feel we should celebrate!
