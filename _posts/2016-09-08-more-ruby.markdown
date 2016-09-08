@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Tic-Tac-Ruby"
+date:   2016-09-08 10:42:51 +0100
+categories: apprenticeship
+---
+
+![page of a book about ruby]({{ site.url }}/assets/ruby_page.jpg)
+This morning Priya did a talk about blog editing. I enjoy the diversity of the talks,
+being a craftman isn't just coding but rather a variety of skills.
+Priya also presented us a cool tool call [HeminWayApp](www.hemingwayapp.com).
+I will use it to help me to improve my writing as it hightlights complex sentences and common errors.
+
+This morning I finally finished my first application: EchoServer.
+I meet the target as I estimated this task 2.75 ideal hours, I hope it will be the same with my next task!
+
+The afternoon I started to work on my Ruby version of the Tic-Tac-Toe. I enjoyed to worked on during my interview, it gave me the opportunity to improve skills like:
+
+- Clean code
+- Algorithm
+- Architecture
+
+It will be also a great way to learn Ruby.
+Continuous Integration is such a great way to improve productivity and quality.
+For that I tried to set up Travis, but it was a waste of time, I didn't figure out how to make it work.
+I must ask someone more comfortable with ruby to avoid me to wast more time with it.
+So far I enjoy using ruby, I can't wait to learn more about it.
+
+
+ps: the person in charge to read my post just felt asleep, sorry for the grammar mistakes!
