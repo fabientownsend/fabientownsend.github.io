@@ -8,7 +8,7 @@ categories: apprenticeship
 ![page of a book about ruby]({{ site.url }}/assets/ruby_page.jpg)
 This morning Priya did a talk about blog editing. I enjoy the diversity of the talks,
 being a craftman isn't just coding but rather a variety of skills.
-Priya also presented us a cool tool call [HeminWayApp](www.hemingwayapp.com).
+Priya also presented us a cool tool call [HemingWayApp](www.hemingwayapp.com).
 I will use it to help me to improve my writing as it hightlights complex sentences and common errors.
 
 This morning I finally finished my first application: EchoServer.
