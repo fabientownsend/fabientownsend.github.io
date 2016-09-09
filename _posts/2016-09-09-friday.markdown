@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Friday"
+date:   2016-09-09 10:42:51 +0100
+categories: apprenticeship
+---
+
+![photo inside train]({{ site.url }}/assets/train.jpg)
+First week at 8th Light and what a week. The Friday is really special at 8th Light
+it is really different than the other working day.
+
+I was surprised this morning when Enrique ask me if I could pair with one
+of our guest. Do I know how to do that? It's my first week at 8th Light!
+
+I quickly decide to apply the ping pong rule, as it's the only one that I know.
+One person write a test and the other one have to solve this test, then we invert the role.
+
+
+We also had three workshop during the day:
+- Comunication
+- Consulting
+- Deadline
+
+Those weren't only interesting, they were really funny.
+
+It make me feal that I should really improve my English, for exemple when a lot
+of people talk in same time it can be really complicated and I hold back myself.
+
+The day finished with a BBQ one the roof, but I sadly had to pass for this time.
+I really needed a nap a this point!
