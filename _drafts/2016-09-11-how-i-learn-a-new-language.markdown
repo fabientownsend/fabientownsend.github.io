@@ -26,12 +26,12 @@ I find that it is always a good idea to have a puppet project when you learn
 a new language so that you are getting practical experience.
 
 ## Core and Syntax
-Ruby is an interpreted language, understand it will help to know how to
-write efficient and secure core.
-For that I curently reading the book The Well-Grounded Rubist and plan to
+Ruby is an interpreted language. To truly understand it will help a crafter to
+know how to write efficient and secure code.
+To do this I'm currently reading the book *The Well-Grounded Rubist*, and plan to
 read Eloquent Ruby.
 
-Here is a example of a Ruby way to work.
+Here is a example of how dependancy really works with Ruby.
 {% highlight ruby linenos %}
 moduel MyModule
   def example
@@ -51,12 +51,12 @@ obj.example
 {% endhighlight %}
 
 when the interpreter will run obj.example I know that it will search the method
-in AnotherClass, MyClass and finally into MyModule it's also why you would avoid
-to write a spagethi code with loads of inheritance. You will also want to understand
-the difference between include MyModule or prepend MyModule
+in AnotherClass, MyClass and finally into MyModule. It's also why a crafter would avoid
+to write a spagethi code with loads of inheritance. A crafter will also want to understand
+the difference between **include** MyModule or **prepend** MyModule when they implement a module.
 
-This knowledge will let me able to write some open source project and write my
-first project, both will make me learn the Synthax of the language.
+This knowledge will enable a crafter to read open source projects and write a project.
+It is also a great way to learn the syntax.
 
 ## Framework and Library
 In general the first and only Framework that I'm looking for is the testing.
