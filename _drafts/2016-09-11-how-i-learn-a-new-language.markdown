@@ -59,19 +59,21 @@ This knowledge will enable a crafter to read open source projects and write a pr
 It is also a great way to learn the syntax.
 
 ## Framework and Library
-In general the first and only Framework that I'm looking for is the testing.
-How to pick up which framework it's pretty easy, just ask which one use your
-coworker. In my case we using RSpec which is set up on the project project.
+In general, the first and only Framework that I'm looking for is the testing.
+How to pick up which framework is pretty easy, just ask which one your
+coworker uses. I'm using RSpec, which is set up on the project.
 
-Then I will learn what are the most know framework for Ruby, which is Ruby On Rails
-and Sinatra. I don't need to learn how to use them at start, I stay focus on ruby.
-At best I will ready their core code.
+Then I will learn which frameworks are the most popular for Ruby. 
+I have found the two most popular are:
 
 - [Ruby on Rails](https://github.com/rails/rails)
 - [Sinatra](https://github.com/rails/rails)
 
-I will also make myself confortable to use the libraray and application package management,
-those commandes are enought so far:
+I don't need to learn how to use them at the start as I want to stay focused on Ruby.
+At best, I will read their code and I will be more knowledgable.
+
+I will also make myself comfortable to use the libraray and application package management.
+These commands are enough so far:
 
 {% highlight ruby %}
 gem install a_lib
