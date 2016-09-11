@@ -84,14 +84,17 @@ gem uninstall a_lib
 [Documentation Gem](http://guides.rubygems.org/rubygems-basics/)
 
 ## Tools
-So far I still don't search my tools.
-But it can be extansion for Vim, that I use and tools that I need for debuggign
+I haven't done any research so far.
 
-I will use the command irb
-and ruby -h
+I plan to research extension for Vim and a tool for debugging like gdb.
 
-{% highlight ruby %}
-#it check the synthax without runnign the code
+Until then the irb command line will help me and the different Ruby commands.
+
+{% highlight ruby %} 
+#list of the different commands
+ruby -h
+
+#it check the syntax without running the code
 ruby -cw my_file.rb
 
 #dipalay the version with ex of code, can be usefull when ask for help
