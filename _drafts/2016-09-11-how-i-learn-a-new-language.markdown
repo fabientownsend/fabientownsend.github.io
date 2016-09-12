@@ -102,8 +102,8 @@ ruby -ve my_file.rb
 {% endhighlight %}
 
 ## Continuous Integration
-For each project I want to be able to set my continuous integration.
-Also the tools depend of what the company use, by default I will use
+For each project, I want to be able to set my continuous integration.
+The tools will depend on what the company uses and by default I will use
 TravisCI with coverall or something like CodeCov.
 
 This will make me more confortable with like:

@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Week-01"
+date:   2016-09-11 10:42:51 +0100
+categories: apprenticeship
+---
+
+![photo inside train]({{ site.url }}/assets/rails.jpg)
+Today it was my first IPM with Christophe. It'as planed every week,
+it's a one to one during which we can speak about the apprenticeship
+check the evolution of the project and coste the next tasks.
+
+I started the last week my Tic Tac Toe, it's not my first itteration
+as I done it during my interview. It's the first time I do it with ruby
+
+It turn to be a code review
+
