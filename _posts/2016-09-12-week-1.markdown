@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Week-01"
+date:   2016-09-11 10:42:51 +0100
+categories: apprenticeship
+---
+
+![gare London]({{ site.url }}/assets/rails.jpg)
+Wow! After one week at 8th Light, I had my first IPM with Christoph.
+An IPM takes place every week; it's an opportunity for an apprentice and his mentor
+to talk about the previous week and the next one. We discussed the current tasks
+and plan the next one so both of us can track my journey and to optimise my experience.
+
+This one to one is a great occasion to become more familiar with 8th Light's processes.
+The objective is to meet their high standards and to prepare to become a crafter.
+
+Christoph did a code review on my Tic Tac Toe project that I started last week.
+I am familiar with code reviews as I have done them myself in the past, but 
+I'm really impressed with Christoph's ability to do it on the fly.
+The code review made me feel that I need to focus more on the quality of my tests.
+He also made some interesting suggestions about the design of the software in order
+to make it more easy to understand.
+
+I can't wait to commit the modifications!
