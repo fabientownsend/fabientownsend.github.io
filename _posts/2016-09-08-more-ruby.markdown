@@ -5,7 +5,7 @@ date:   2016-09-08 10:42:51 +0100
 categories: apprenticeship
 ---
 
-![page of a book about ruby]({{ site.url }}/assets/ruby_page.jpg)
+![page of a book about ruby]({{ site.url }}/assets/code_ttt.jpg)
 This morning Priya did a talk about blog editing. I enjoy the diversity of the talks,
 being a craftman isn't just coding but rather a variety of skills.
 Priya also presented us a cool tool call [HemingWayApp](www.hemingwayapp.com).
