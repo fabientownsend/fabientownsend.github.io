@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "Week-01"
+date:   2016-09-13 10:42:51 +0100
+categories: apprenticeship
+---
+
+![white board]({{ site.url }}/assets/white_board.jpg)
+Zagaku! What is a Zagaku again? It's an opportunity for someone to present a
+a subject for around 30 minutes in the morning. The subject is free:
+it can be about computer science, blog editing, anything to do with customers,
+so on and so forth. The purpose is to grow the team's knowledge.
+
+Yesterday, the subject about compilaters was initialised by Daniel. His talk helped
+us to gain a big picture of this topic, including some notion of operating systems.
+The subject was so vast that we divided it into smaller topics that will be discussed
+in our next Zagaku. Here is a list of some of the smaller topics:
+
+- Garbage collector
+- CPU architecture
+- VM vs Compilater
+- Memory allocation
+- Debugger
+
+Uku continued with the subject today, by covering it more in depth. 
+He described the different steps of the compilation
+, and where the biggest differences come in these three categories of language:
+
+- System (C/C++, Rust, Assembler)
+- Architectural (C#, Java, Erlang, ...)
+- Application (Ruby, Python, JavaScript, ...)
+
+I feel that's important to keep learning those kinds of subjects. They are
+not essential for "just coding", but they are when it comes to becoming a professional.
+This knowledge will help me to make better decisions to drive projects and make
+them successes.
