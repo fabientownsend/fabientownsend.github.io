@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Week-01"
+title:  "Zagaku!"
 date:   2016-09-13 10:42:51 +0100
 categories: apprenticeship
 ---
