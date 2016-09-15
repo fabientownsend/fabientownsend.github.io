@@ -5,7 +5,7 @@ date:   2016-09-15 10:42:51 +0100
 categories: apprenticeship
 ---
 
-![cup of coffee]({{ site.url }}/assets/converage.jpg)
+![cup of coffee]({{ site.url }}/assets/coverage.jpg)
 Well, there we are. I just finished my 5th Tic-Tac-Toe story. This means that the game
 is ready for my next IPM on Monday, and I have time to polish my code. It's always better
 to have time to do this.
