@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "test coverage"
+title:  "Test Coverage"
 date:   2016-09-15 10:42:51 +0100
 categories: apprenticeship
 ---
