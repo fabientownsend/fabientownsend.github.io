@@ -52,7 +52,7 @@ task :default => :spec
 The last configuration file for *.travis.yml* - This file will tell travis what environment you
 want your code to be compiled and tested.
 {% highlight ruby %}
-nguage: ruby
+language: ruby
 rvm:
 - 2.3.0
 script:
