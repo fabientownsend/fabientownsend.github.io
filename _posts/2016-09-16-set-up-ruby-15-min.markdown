@@ -11,9 +11,9 @@ Then how to make it in 1 seconde with a script.
 
 At minimum, you will need an account on each one of these websites:
 
-- [Github](github.com)
-- [Travis](travis-ci.org)
-- [CoverAlls](coveralls.io)
+- [Github](https://github.com)
+- [Travis](https://travis-ci.org)
+- [CoverAlls](https://coveralls.io)
 
 First we create our configuration files.
 {% highlight shell %}
