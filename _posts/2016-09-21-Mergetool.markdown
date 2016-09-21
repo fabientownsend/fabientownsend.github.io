@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Trade Offs"
+title:  "Merge Conflict"
 date:   2016-09-21 10:42:51 +0100
 categories: apprenticeship
 ---
@@ -9,7 +9,7 @@ categories: apprenticeship
 One of the most useful features of Git is its *branch* system. This system allows you to create independent branches
 for each of your features, and then merge them together.
 
-With great features comes great responsability: the merge confict.
+With great features comes great responsability: the merge conflict.
 Merge conficts can happen when two of the same edited files attempt to merge together. This is where Git is fantastic
 as it can resolve merge conflicts by itself, most of the time...
 
