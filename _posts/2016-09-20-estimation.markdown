@@ -5,7 +5,7 @@ date:   2016-09-20 10:42:51 +0100
 categories: apprenticeship
 ---
 
-![cup of coffee]({{ site.url }}/assets/review.jpg)
+![cup of coffee]({{ site.url }}/assets/trade_off.jpg)
 The ability to examine trade offs and make good decisions are key skills for excellent crafters.
 Trade offs can have a direct impact on deliveries and the overall cost of a project. 
 They are also great opportunities to influence the satisfaction of a customer.
