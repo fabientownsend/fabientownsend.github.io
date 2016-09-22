@@ -5,7 +5,7 @@ date:   2016-09-22 10:42:51 +0100
 categories: apprenticeship
 ---
 
-![cup of coffee]({{ site.url }}/assets/conflict.jpg)
+![dunstable sunset]({{ site.url }}/assets/lazy.jpg)
 As a developer, you have the skills to automate tasks. Something that I
 don't do enough.
 
