@@ -74,7 +74,7 @@ When the developer can have access to the code and its tests, you don't need
 exception. The developer has all of the information needed to make the
 verification of the correct input before using your method.
 
-# Computering
+# Perfomance
 Unfortunately, I don't have much experience with this yet.
 
 According to *the internet*, the performance of Exception is pretty bad.
