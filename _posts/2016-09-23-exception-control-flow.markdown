@@ -17,7 +17,7 @@ Exception as control flow is said to be an AntiPattern:
 We can split this problem into two parts:
 
 - Readability
-- Computering
+- Perfomance
 
 # Readibility
 Example 1:
@@ -46,10 +46,10 @@ Example 2:
 def play_move
   position = @current_player.next_move
 
-  if position > board.POSITION_MAX - 1 || position < board.POSITION_MIN
+  if in_range?(position)
     ui.between(board.POSITION_MIN, board.POSITION_MAX - 1)
     play_move
-  elsif available?(position)
+  elsif !available?(position)
     ui.occupied_position
     play_move
   else
