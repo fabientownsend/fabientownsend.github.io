@@ -49,7 +49,7 @@ def play_move
   if position > board.POSITION_MAX - 1 || position < board.POSITION_MIN
     ui.between(board.POSITION_MIN, board.POSITION_MAX - 1)
     play_move
-  elsif !@board.free_positions.include?(position)
+  elsif available?(position)
     ui.occupied_position
     play_move
   else
