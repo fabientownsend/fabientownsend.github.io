@@ -10,6 +10,7 @@ The control flow evaluates an input statement in order to determine the
 output. It can be managed through exception or if/else evaluations.
 
 Exception as control flow is said to be an AntiPattern:
+
 > An AntiPattern is a literary form that describes a commonly occuring
 > solution to a problem that generates decidedly negative consequences.
 
