@@ -81,6 +81,7 @@ According to *the internet*, the performance of Exception is pretty bad.
 > Exception should not be part of the regular flow.
 
 This seems to be the case for different languages:
+
 - [.Net](http://stackoverflow.com/questions/161942/how-slow-are-net-exceptions)
 - [Java](http://stackoverflow.com/questions/299068/how-slow-are-java-exceptions)
 - [Ruby](https://simonecarletti.com/blog/2010/01/how-slow-are-ruby-exceptions/)
