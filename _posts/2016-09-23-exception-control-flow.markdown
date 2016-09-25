@@ -46,7 +46,7 @@ Example 2:
 def play_move
   position = @current_player.next_move
 
-  if in_range?(position)
+  if !in_range?(position)
     ui.between(board.POSITION_MIN, board.POSITION_MAX - 1)
     play_move
   elsif !available?(position)
@@ -98,9 +98,8 @@ would be removed,  but with Ruby I don't know how to do it or even if it's possi
 Example assertion:
 {% highlight ruby %}
 def set_mark(mark, position)
-  assert(!is_free?(position)
-  assert(!position < POSITION_MAX - 1)
-  assert(!position > POSITION_MIN)
+  assert(!available?(position)
+  assert(!in_range?(position)
   assert(position != Integer)
 
   # some code
