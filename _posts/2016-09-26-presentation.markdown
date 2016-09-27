@@ -44,7 +44,8 @@ I feel more confortable with this part, even if I have a lot to improve.
 The direct feedback that I receive during my IPM  makes me feel
 satisfied and I look forward to being productive.
 
-#Conclusion
+##Conclusion
+
 List of things I want to improve after this IPM:
 
 - Communicate more whenever I have a question. Not only with Google.
