@@ -35,9 +35,9 @@ For this part, I tried to be more organised than the previous time.
 
 Before my presentation I:
 
-- ran my tests in front of my mentors
-- opened my code before the meeting into different windows
-- prepared questions
+- Ran my tests in front of my mentors
+- Opened my code before the meeting into different windows
+- Prepared questions
 
 I feel more confortable with this part, even if I have a lot to improve.
 The direct feedback that I receive during my IPM  makes me feel
