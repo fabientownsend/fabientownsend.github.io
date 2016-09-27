@@ -7,17 +7,17 @@ categories: apprenticeship
 
 ![git pull request]({{ site.url }}/assets/control_flow.jpg)
 The control flow evaluates an input statement in order to determine the
-output. It can be managed through exception or if/else evaluations.
+output. Exceptions can be used to manage control flow.
 
-Exception as control flow is said to be an AntiPattern:
+Exception as control flow is an AntiPattern:
 
-> An AntiPattern is a literary form that describes a commonly occuring
+> An AntiPattern is a literary form that describes a commonly occurring
 > solution to a problem that generates decidedly negative consequences.
 
 We can split this problem into two parts:
 
 - Readability
-- Perfomance
+- Performance
 
 # Readibility
 Example 1:
