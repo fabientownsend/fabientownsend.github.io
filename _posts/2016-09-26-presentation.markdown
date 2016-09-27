@@ -17,8 +17,7 @@ this time. For that, I split the idea of 'presentation' into two parts:
 - Customer Presentation
 - Developer Presentation
 
-##Customer Presentation
-
+## Customer Presentation
 This presentation gave me the opportunity to introduce the new features that we
 had previously planned. I displayed my unbeatable computer player and the new
 language menu.
@@ -31,8 +30,7 @@ time I took to implement it!
 
 Note that for the exercise the customers are my mentors.
 
-##Developer Presentation
-
+## Developer Presentation
 For this part, I tried to be more organised than the previous time.
 
 Before my presentation I:
@@ -44,8 +42,7 @@ I feel more confortable with this part, even if I have a lot to improve.
 The direct feedback that I receive during my IPM  makes me feel
 satisfied and I look forward to being productive.
 
-##Conclusion
-
+## Conclusion
 List of things I want to improve after this IPM:
 
 - Communicate more whenever I have a question. Not only with Google.
