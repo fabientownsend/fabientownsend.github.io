@@ -34,6 +34,7 @@ Note that for the exercise the customers are my mentors.
 For this part, I tried to be more organised than the previous time.
 
 Before my presentation I:
+
 - ran my tests in front of my mentors
 - opened my code before the meeting into different windows
 - prepared questions
