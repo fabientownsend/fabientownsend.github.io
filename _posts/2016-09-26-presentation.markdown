@@ -17,7 +17,8 @@ this time. For that, I split the idea of 'presentation' into two parts:
 - Customer Presentation
 - Developer Presentation
 
-#Customer Presentation
+##Customer Presentation
+
 This presentation gave me the opportunity to introduce the new features that we
 had previously planned. I displayed my unbeatable computer player and the new
 language menu.
@@ -30,7 +31,8 @@ time I took to implement it!
 
 Note that for the exercise the customers are my mentors.
 
-#Developer Presentation
+##Developer Presentation
+
 For this part, I tried to be more organised than the previous time.
 
 Before my presentation I:
