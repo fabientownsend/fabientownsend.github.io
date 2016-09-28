@@ -22,13 +22,13 @@ So far I have read two principles:
 - Single Responsibility Principle (SRP)
 - Open-Closed Principle (OCP)
 
-As I was reading, I realised that the class I tried to refactor earlier
+As I was reading, I realised that the class [Computer](https://github.com/fabientownsend/tic-tac-toe/pull/4/files?diff=unified#diff-0627e6c48eef9d10621b5416502e1cb8) I tried to refactor earlier
 broke the SRP. I felt that my class wasn't correct in the morning, but I
 couldn't tell why. This book helped me to identify the reasons why my class
 wasn't correct and with this, I could fix the problem.
 
-I managed to extract the methods that broke the SRP into a new class that I
-created. Both classes now have one and only one responsibility.
+I managed to extract the methods that broke the SRP into a new class [MoveEvaluator](https://github.com/fabientownsend/tic-tac-toe/pull/4/files?diff=unified#diff-a422dd6b6a81b9be796de207780b12c3)
+that I created. Both classes now have one and only one responsibility.
 
 Here is the refactoring pull request: [Github link](https://github.com/fabientownsend/tic-tac-toe/pull/4)
 I'm satisfied with the result. I asked for a code review and I can't wait to receive
