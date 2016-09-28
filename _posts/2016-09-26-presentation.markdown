@@ -6,8 +6,8 @@ categories: apprenticeship
 ---
 
 ![dunstable sunset]({{ site.url }}/assets/squirrel.jpg)
-Today is my third one to one with my mentors, Felipe and Christoph. Wait, what?
-Three people? It can't be one to one! Let's try again.
+Today is my third one-to-one with my mentors, Felipe and Christoph. Wait, what?
+Three people? It can't be one-to-one! Let's try again.
 Today is my third IPM with...
 
 During my IPM, I spoke about my previous week, how it went
