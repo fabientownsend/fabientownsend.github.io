@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "My First Kata"
+date:   2016-09-28 10:42:51 +0100
+categories: apprenticeship
+---
+
+![cover of the book Agile Sofware Development]({{ site.url }}/assets/cover_agile.jpg)
+*From a software development perspective, we use katas to build muscle memory,
+practice logical thought and teach ourselves familiar ideas but from a
+different perspective.* - [from 8th Ligth blog](http://8thlight.com/blog/micah-martin/2013/05/28/performing-code-katas.html)
+
+I trained on with [Roman Numeral Kata](http://agilekatas.co.uk/katas/RomanNumerals-Kata) today.
+This is the first time that I'm preparing to perform a Kata. The final objective
+is to do it in front of 8th Light's team and in just 8 minutes!
+
+Felipe and Christoph asked me to reccord it when possible in order to check to
+see if I'm ready to do it in front of the team.
+
+First step: ask for advice. I explained my situation to Chris and asked if he
+had any advice. Here is the advice that he gave me:
+
+- Play music. I have no taste. Should I put Nyan cat?
+- Use Guard software, which will help display tests' status.
+- Increase the size of my font so that it is easier to read.
+- Read this [article about Vim](http://vimcasts.org/blog/2013/02/habit-breaking-habit-making/)
+
+## How I am Preparing Myself
+I wrote [a script](https://github.com/fabientownsend/setup_kata_ruby) quickly in the morning.
+This script generates the environment needed to perform my kata.
+At the moment it:
+
+- Installs RSpec.
+- Installs Guard rspec.
+- Creates a class and its test.
+- Runs Guard rspec.
+
+After 10 attempts today, I'm still far from performing this task in 8 minutes.
+I finish at around 14 minutes and that's without the pressure of people
+watching me code.
