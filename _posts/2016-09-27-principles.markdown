@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Which Principles Did I Broke?"
+title:  "Which Principles Did I Break?"
 date:   2016-09-27 10:42:51 +0100
 categories: apprenticeship
 ---
