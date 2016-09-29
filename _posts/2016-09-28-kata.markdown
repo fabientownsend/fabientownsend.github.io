@@ -5,7 +5,7 @@ date:   2016-09-28 10:42:51 +0100
 categories: apprenticeship
 ---
 
-![cover of the book Agile Sofware Development]({{ site.url }}/assets/cover_agile.jpg)
+![cover of the book Agile Sofware Development]({{ site.url }}/assets/kata.jpg)
 *From a software development perspective, we use katas to build muscle memory,
 practice logical thought and teach ourselves familiar ideas but from a
 different perspective.* - [from 8th Ligth blog](http://8thlight.com/blog/micah-martin/2013/05/28/performing-code-katas.html)
