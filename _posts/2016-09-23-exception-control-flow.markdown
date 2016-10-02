@@ -58,7 +58,7 @@ def play_move
 end
 {% endhighlight %}
 
-We can't tell if one code is more readable than the other.
+We can't tell if one code snippet is more readable than the other.
 
 The main difference is in the first example, my **class Board tells** me that
 it doesn't accept some conditions and the second example, **I ask**
@@ -66,7 +66,7 @@ my class if I respect the conditions.
 
 When does it seem legitimate to *tell* or to *ask*?
 
-The most obvious situation where you need to tell or even yield, is when the user
+The most obvious situation where you need to tell, is when the user
 of your method can't have access to your code and you need to tell them
 that they misused your method.
 
@@ -91,7 +91,7 @@ I decided to remove exception as control flow from my project.
 A side effect of this decision is that I feel like I removed
 some conditions from my class Board that say *"hey, don't use my method with that"*.
 
-With Java or C#, I would have chose the second solution with these assertions
+With Java or C#, I would have choose the second solution with these assertions
 into my class Board. During the compilation of the project, these assertions
 would be removed,  but with Ruby I don't know how to do it or even if it's possible.
 
