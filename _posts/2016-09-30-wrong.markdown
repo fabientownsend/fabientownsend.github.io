@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Wrong decisions!"
+date:   2016-09-30 10:42:51 +0100
+categories: apprenticeship
+---
+
+![cover of the book Agile Sofware Development]({{ site.url }}/assets/cover_agile.jpg)
+In a previous post, I talked about the refactoring that I did on my Tic-Tac-Toe project.
+I was satified with it. Three days later, I realised I made wrong decisions
+when refactoring.
+
+During the refactoring, I managed to extract private methods into a new class
+with its tests. I made this decision thinking that:
+
+- This method could be used by other classes.
+- I didn't want to delete its tests.
+
+During my IPM, Christoph and Felipe pointed out that
+firstly, no other classes needed to use this method, so I had no reason to
+expose it for this sprint. As this method wasn't public, its tests aren't
+needed as I had thought.
+
+It's the first time that I have had to go backward on my project. Lesson learnt:
+over design is as bad as under design.
