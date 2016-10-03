@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Wrong decisions!"
+title:  "Wrong decisions!Some Git Commands"
 date:   2016-09-30 10:42:51 +0100
 categories: apprenticeship
 ---
@@ -23,3 +23,11 @@ needed as I had thought.
 
 It's the first time that I have had to go backward on my project. Lesson learnt:
 over design is as bad as under design.
+
+As I merged this branch to my master I had to revert this. For that, I used this command:
+
+{% highlight shell %}
+git revert -m 1 {id of my commit}
+{% endhighlight %}
+
+The *-m 1* tell git to comme back to first parent on the master.
