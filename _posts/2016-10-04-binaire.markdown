@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "Binary File with Ruby 1/2"
+date:   2016-10-04 10:42:51 +0100
+categories: apprenticeship
+---
+
+![macbook pro]({{ site.url }}/assets/laptop.jpg)
+I was set the tasks of creating a binary file for my Ruby Tic-Tac-Toe project.
+
+But firstly, what is a binary file?
+> A binary file is a computer file that is not a text file.
+> The term 'binary file' is often used as a term meaning 'non-text file'.
+> Text file itself is a binary file and all computer files are binary file...
+
+Source: [wikipedia](https://en.wikipedia.org/wiki/Binary_file)
+
+How can I create a binary file whilst working with Ruby?
+As Ruby is opposite to a compiled language, its files aren't binaries, but it
+is common to refer to a binary for a "binary executable file". The question
+now is: how can I create an executable for my Ruby project?
+
+Usually when I want to launch my executable, I just type its name in the console.
+So far, I have told my operating system I want to use the ruby interpreter to
+read my project.
+
+{% highlight shell %}
+$ ruby my_executable.rb
+{% endhighlight %}
+
+I will now add a [Cheban](https://en.wikipedia.org/wiki/Shebang_(Unix)) at
+at the start of my file. This will tell my operating system that it will
+have to use ruby, to execute the rest of the file.
+
+{% highlight ruby %}
+#! /usr/bin/ruby
+
+puts "Vive le fromage!"
+{% endhighlight %}
+
+Now I can get rid of the extension *.rb* and try my file.
+{% highlight shell %}
+$ ./my_executable
+{% endhighlight %}
+
+Note: You may need to use a different path than I have used for ruby.
+My pathway may not work for you because ruby may be stored in a different folder
+in your system. To know which folder, you need to type: *whereis ruby*
+
+I use this technique for Ruby but it really can work for a lot of languages.
