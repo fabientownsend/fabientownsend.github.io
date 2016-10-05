@@ -1,0 +1,55 @@
+---
+layout: post
+title:  "Binary File with Ruby 2/2"
+date:   2016-10-04 10:42:51 +0100
+categories: apprenticeship
+---
+
+![market near 8th Light office]({{ site.url }}/assets/market.jpg)
+In my previous post I talked about binary files. Now, I will explain why and
+how I used it.
+
+After one month of working on my Tic-Tac-Toe project, I found that it was full
+of *require_relative*.
+Require_relative is a strong dependency between files. For example,
+two files, A and C, use the file B with *require_relative*. If B moves to another
+folder, I will have to edit my *require_relative* into A and C.
+
+In order to ensure that the project is easy to maintain, my binary file will be responsible
+for making files accessible to each other regardless of their folder.
+
+Let's talk about Ruby a bit more so that we can understand the solution.
+When you run ruby, you have a [bunch of libraries](http://ruby-doc.org/stdlib-2.3.1/) loaded with it by default.
+This is why you can use, for example, the library yaml in any project with *require 'yaml'*.
+
+You can see the paths to the libraries  with the command *irb*.
+
+{% highlight bash %}
+$ irb
+irb(main):001:0> $:
+irb(main):001:0> $LOAD_PATH
+{% endhighlight %}
+
+*Note that $: and $LOAD_PATH are equivalent.*
+
+## Add Our library to $LOAD_PATH
+Now, let's add our library with the other libraries. For
+that, I will use my binary file! This file is in the *bin* folder of my project.
+
+Here is how to get the current directory with Ruby:
+{% highlight ruby %}
+File.dirname(__FILE__)
+{% endhighlight %}
+
+From the *bin* folder, I now want to get the *lib* folder:
+{% highlight ruby %}
+File.expand_path('../lib', File.dirname(__FILE__)
+{% endhighlight %}
+
+Last step. I will add my *lib* folder to the $LOAD_PATH stack:
+{% highlight ruby %}
+$: << File.expand_path('../lib', File.dirname(__FILE__)
+{% endhighlight %}
+
+I can now *require* any class which is in the
+lib folder. Pretty cool, right?
