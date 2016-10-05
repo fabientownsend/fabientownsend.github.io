@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Binary File with Ruby 2/2"
-date:   2016-10-04 10:42:51 +0100
+date:   2016-10-05 10:42:51 +0100
 categories: apprenticeship
 ---
 
