@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "Why Is My Pipeline Broken?"
+date:   2016-10-07 10:42:51 +0100
+categories: apprenticeship
+---
+
+![google survey about tests]({{ site.url }}/assets/survey.jpg)
+Oh noes, I broke my pipeline. How I have done that?
+
+I broke my pipeline on Thursday, before my IPM. I was disappointed because I
+configurated my Git to run my tests before each push. So, how did it happen?
+
+Let's talk about my Git configuration.
+I created a file:
+> ./.git/hooks/pre-push
+
+With this content:
+
+{% highlight ruby %}
+!#/bin/bash
+
+echo "running RSpec"
+bundle exec rspec spec
+
+spec=$?
+if [ $spec -eq 0 ]; then
+ exit 0
+else
+ echo -e "Tests failed. Use git push --no-verify to force the push\n"
+ exit 1
+fi
+{% endhighlight %}
+
+Note that the file must be in: *chmod +x .git/hooks/pre-push*
+
+The problem occured when I attempted a pull request on Github.
+![image pipeline broken]({{ site.url }}/assets/pipeline.png)
+As we can see /travis-ci/pr was broken.
+
+I couldn't understand why it was broken and I couldn't find any explanation.
+I tried everything and anything; I even used a few of Git's commands that I
+never thought would be useful. Nothing helped.
+
+During my IPM, I mentioned what happened and that I hadn't found a solution
+despite spending quite a bit of time trying to solve it.
+My mentors suggested an explanation as to why it didn't work. My server runs with
+Linux when I'm working with MacOS. How did I not even think about that?
+
+Sometimes a quick chat can really help to find a solution that we couldn't imagine.
+
+I still have to explore this suggestion, but I hope that a future post will detail
+the solution.
