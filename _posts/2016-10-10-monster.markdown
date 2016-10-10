@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "Don't Feed The Monster"
+date:   2016-10-10 10:42:51 +0100
+categories: apprenticeship
+---
+
+![google survey about tests]({{ site.url }}/assets/monster.jpg)
+If we compare a software to a city then this one is not safe. Cue the
+destruction of the city by a monster.
+
+I like the comparison between building a city and software.
+In both cases you build to solve necessities or obligations.
+By the time the city or software  expands, it has evolved and become older with
+its legacy.
+
+If I like the idea of software as a city, I love to imagine it being inhabited
+by a monster. This monster is fed by all the smelly code:
+
+- Duplicated code.
+- Contrived complexity.
+- Large classes.
+- Feature envy.
+- [etc](https://en.wikipedia.org/wiki/Code_smell)
+
+Let's call this monster Godzilla.
+The more you feed Godzilla, the more it is able to destroy the city.
+You'll come to the point where you'll want to rebuild a new city instead of
+maintaining the old one if you keep feeding Godzilla.
+This is the worst scenario that we can imagine.
+
+We can work in a way to prevent this from happening.
+Here is how:
+
+- Talk with the team and make decisions together.
+- Think about the design.
+- Do code reviews.
+- Refactor if you have the opportunity.
+- Avoid to think that "I will do it later".
+
+When was the last time you fed the monster?
