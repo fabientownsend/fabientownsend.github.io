@@ -10,12 +10,12 @@ In my previous post, I shared the first resources that I found to help me
 with my task. Today, I will explain how I created my Rugy Gem.
 
 ## Create And Configurate A Basic Gem
-I could create my gem as it's very well explained on rubygems.org:
-[make you own gem](http://guides.rubygems.org/make-your-own-gem/) but, instead,
-I will use a bundler's build gem skeleton to create a basic gem to save some time.
+I thought to create my gem, it's very well explained on rubygems.org:
+[make you own gem](http://guides.rubygems.org/make-your-own-gem/).
+After reflection, I finally I decided to use bundler's build gem skeleton.
+It create quickly a basic gem which will save me some time.
 
-Well, not that basic, it also create a basic test and configurate it for travis
-and that, is cool!
+The gem generate pre-configurate travis and and rspec, which is pretty cool.
 
 For that, if it's not the case, I need to Install [bundler](https://rubygems.org)
 
