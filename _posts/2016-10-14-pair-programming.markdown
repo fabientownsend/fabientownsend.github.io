@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How Am I Suppose to Learn That?"
+title:  "How am I Suppose to Learn That?"
 date:   2016-10-14 10:42:51 +0100
 categories: apprenticeship
 ---
