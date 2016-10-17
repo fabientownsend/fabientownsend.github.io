@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "Create a Ruby Package 2/2"
+date:   2016-10-17 10:42:51 +0100
+categories: apprenticeship
+---
+![tree]({{ site.url }}/assets/tree.jpg)
+I previously explained [how I created a Gem with Ruby]({{ site.url }}/apprenticeship/2016/10/12/create-package.html).
+In this second part, I will explain how to install and use a Gem hosted on Github.
+
+I added the line as seen below to my project's Gemfile. The line will make bundler download
+the Gem into the project file during the next *bundler install*.
+
+{% highlight shell %}
+gem 'name_of_the_gem', :git => 'url_git_repository'
+{% endhighlight %}
+
+After that, I was able to call the different classes that were present in the Gem.
+
+Note that I had to insert some prefixes with *bundle exec* before commands that I had previously used.
+Here are some examples:
+
+- bundle exec rspec
+- bundle exec ruby ./bin/tic_tac_toe
+
+# Extracting a Class and Inserting It Into a Gem
+
+My Gem is initialised and is ready to be used. It is now the moment to move
+my classes from my main project to my Gem.
+Here is the method that I applied for moving a class:
+
+- Copy its tests from the project to the Gem.
+- Run the tests on my Gem. They should fail.
+- Copy the class and its dependancies to the Gem.
+- Run the tests in my Gem. They should pass.
+- Delete the class and its tests from the project.
+- Push my Gem project on Github.
+- Update the Gemfile of my project.
+- Run the tests. They should pass.
+
+I repeated these actions every time that I needed to move a class into the Gem.
