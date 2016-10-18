@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Keep My Project Maintainable"
+date:   2016-10-18 10:42:51 +0100
+categories: apprenticeship
+---
+![building in London]({{ site.url }}/assets/curve.jpg)
+This week, I'm working on the web implementation of the Tic-Tac-Toe project.
+I imagined that it would be easy but, frankly, it's not a piece of cake. I
+have to work with three projects at same time: command line, web and core.
+
+The web version of the Tic-Tac-Toe project has a lot in common with the command
+line version. That's why I started to create a Gem last week.
+This Gem is supposed to contain the common parts that both versions share.
+Doing this, allows me to avoid the duplicating code and therefore, makes
+the projects easier to maintain.
+
+It sounds simple, but here are the difficulties that I have already encountered:
+
+- I duplicated code between the web and command line version.
+- Some encapsulations aren't easily reusable between both projects.
+- Refactoring the three projects is time consuming.
+
+I can feel my lack of engineering experience with the mistakes I have made.
+On the other hand, it's really constructive.
