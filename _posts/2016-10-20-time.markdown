@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "I Wish I Was Right"
+date:   2016-10-20 10:42:51 +0100
+categories: apprenticeship
+---
+![building in London]({{ site.url }}/assets/curve.jpg)
+I receive new tasks from my mentors each week. These tasks always involve
+implementing new features for the same project. These additions make the project
+become bigger and bigger: more files, more code, more functions.
+
+Before I start to code, I always consider how to best implement a new feature or
+a new function. Unfortunately, I often feel that my previous choices complicate the
+new implementation. It can be frustrating to start a new task with this feeling.
+
+So, why did I implement this feature this way? How could what seemed like a good choice
+become so rubbish?
+
+Previously implementation was correct or, at least, it worked. Now that I am adding new features
+the requirements of the project are changing and previous 'good decisions' don't seem to mesh
+well with new features.
+
+I think at some point I should embrace the problem instead of wasting time wondering why
+I made other decisions previously. These decisions were correct in the moment.
+I should focus on solving how to implement the new features and enjoy the challenge.
