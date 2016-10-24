@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "The Single Responsability"
+date:   2016-10-24 10:42:51 +0100
+categories: apprenticeship
+---
+![building in London]({{ site.url }}/assets/curve.jpg)
+The Single Responsability also well know as SRP. It's the first
+of the SOLID principles. The Single Responsability Principle says:
+
+> A module should have one and only one reason to change one, and only one, responsability.
+
+The needs from software's users can change often.
+But sometimes, it's complicated to make these changes because it impacts
+a lot of differents classes and make it difficult to meet the new users needs.
+
+Here is the idea of the SRP, make a software to folerate and facilitate to any changes.
+For that we have to keep all responsabilities separate from each other.
+
+If the SIP is well respected. When it come de make a change for an actor the code
+will be located in one place which concern this actor. For example: if I have to
+do a modification to my Board class which is in a Gem none of the projects
+using this Gem should have to be modified.
+
+Note: the SIP can also apply to your commit and pull request.
