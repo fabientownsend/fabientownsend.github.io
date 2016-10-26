@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "The Liskov Substitution Principle"
+date:   2016-10-26 10:42:51 +0100
+categories: apprenticeship
+---
+![door train london]({{ site.url }}/assets/openclose.jpg)
+The Liskov Substitution Principle is the third of the SOLID principles.
+
+> *Substitutability* is a principle in object-oriented programming that states that
+> in a computer program, if S is a subtype of T, then objects of type T may be
+> replaced with objects of type S without altering any of the desirable
+> properties of that program
+
+This principle is about inheritance and how to use it, the data structures and
+their relationships. Specifically, it says that if a class can use the parent then
+it should be able to use its child as well.
+
+In object-oriented programming it can be complicated to use inheritance well.
+When badly used, it can harm your code as it will build a strong dependancy between
+objects and will make your code rigid and fragile.
+
+And remember:
+
+> If it looks like a duck, quacks like a duck, but needs batteries – you probably have the wrong abstraction
+
+Note: if you break the LSP, you inherit the Open Close violation.
