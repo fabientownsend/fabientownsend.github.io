@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lost Confidence by Refactoring"
+title:  "Lose Confidence by Refactoring"
 date:   2016-10-27 10:42:51 +0100
 categories: apprenticeship
 ---
