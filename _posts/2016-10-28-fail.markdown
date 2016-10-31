@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "I Just Failed My Presentation"
+date:   2016-10-28 10:42:51 +0100
+categories: apprenticeship
+---
+![door train london]({{ site.url }}/assets/openclose.jpg)
+During my IPM last Friday, I presented the project's latest features, some
+interface improvements and the computer player implementation.
+Unfortunately, this presentation didn't go the way I had expected.
+
+My tasks had been implemented in my project, but I was under prepared.
+This lack of preparation resulted in an awkward presentation in which
+the features didn't work.
+
+Whatever the reasons were that made this presentation look terrible, the
+result was that I didn't deliver and it could make me lose a customer's trust.
+
+Here are some points that I could improve upon in order to avoid repeating
+this situation:
+
+- do not trust manual tests.
+- write more integration tests.
+- write down how I will execute my presentation and the expecations of this.
+- present my work to another person before presenting my mentors.
