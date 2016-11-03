@@ -13,15 +13,16 @@ by their users.
 Interfaces can be private or public:
 
 **Private Interface**
-The private interface contain the details and the mechanism. It is not supposed
+The private interface contain the details and its mechanism. It is not supposed
 to be used by anything else but the class itself. This let us make any change
-without breaking anything. The private interface isn't necessarily tested.
+without breaking any user of this class. The private interface isn't necessarily
+tested.
 
 **Public Interface**
-The public interface is here to provid public methods with explicite name. It's
+The public interface is here to provid public methods with explicite name. Its
 name neither its signature should change, otherwise everything which depend on
-it will have to be update, included its unit tests. Everything about this
-interface should be document with its unit test. It explain how to use
-the interface and what to expect about it.
+it will have to be update, included its unit tests and frankly, you don't want
+that. Everything about this interface should be document with unit test,
+those will explain how to use the interface and what to expect about it.
 
 If you ever have to modify this interface it can be a good idea to create a v2.
