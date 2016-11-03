@@ -6,7 +6,7 @@ categories: apprenticeship
 ---
 ![ice bar london tiger]({{ site.url }}/assets/tiger.jpg)
 Is there a way to refactor and keep the project clean? For me, so far,
-I feel that I have to refactor a big mess each time. I'm the only person to blame.
+I feel that I have to refactor a big mess each time.
 
 I am currently working on with these three projects:
 
