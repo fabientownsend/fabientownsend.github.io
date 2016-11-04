@@ -70,6 +70,7 @@ end
 # after
 class GameBuilder
   def initialize(args)
+    args = defautls.merge(args)
     @board_size = args[:board_size]
     @game_types = args[:game_types]
     @first_player = args[:first_player]
