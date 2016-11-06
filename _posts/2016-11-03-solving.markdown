@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "Problem Solving"
+date:   2016-11-04 10:42:51 +0100
+categories: apprenticeship
+---
+![practical object-oriented design in ruby cover]({{ site.url }}/assets/oop.jpg)
+As developers, everyday we are working to solve customers' problems with our ability to
+code. This realisation makes me wonder how I can improve my problem solving skils
+and become more performant.
+
+I would like to solve a problem from the book *Cracking the Coding Interview*
+each day in the same way as a Kata at 8th Light in order to improve these skills.
+
+After some research, here is some advices that I have found:
+
+**Listen**: Details are needed to solve the problem; without them,
+you will solve the wrong problem.
+
+**Example**: Find an example that truly represents the problem. Draw a picture
+of the problem and you may find that this will help you visualise it, and
+understand it.
+
+**Brute Force**: At first, it's better to have a solution that isn't optimised
+than no solution at all.  This solution can be optimisated later.
+
+**Optimise**: You made it work? Great, now you can make it fast!
+
+**Walk Through Your Algorithm** Know what you are going to do before coding.
+Ask yourself:
+
+- What variables?
+- What data structures?
+- How, when and why do they changes?
+- What is the structure of your global code?
+
+**Code** (whiteboard/paper)
+Even if the code is written on a whiteboard/paper, it's still
+important to keep the code clean, consistent and readable.
+
+**Test**
+Part of the process is knowing what kind of tests to write.
+The test is there to check the code, not the algorithm.
+
+Note that we don't start to code until step 6. This exercise can also be a great
+opportunity to improve on how you communicate your solution, especially when using
+a whiteboard and explaining out loud.
+
