@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "I Have a Pen; I Have Piece of Paper, UML"
+date:   2016-11-07 10:42:51 +0100
+categories: apprenticeship
+---
+![uml language from my notbook]({{ site.url }}/assets/uml.jpg)
+My current goal is to improve the way I articulate the design of my projects.
+At the moment, I don't have any proper technique. Maybe it's the
+right moment to learn UML? Learning this language could really help me achieve
+my goal.
+
+Here is Wikipedia's definition of UML:
+
+> The Unified Modeling Language (UML) is a general-purpose, developmental,
+modeling language in the field of software engineering, that is intended to
+provide a standard way to visualize the design of a system.
+
+It's also a great time to improve my communication skills.
+After drawing a *class diagram* or a *sequence diagram*, I could ask a peer
+what is their opinion of the diagram, consult with them about problems and
+learn from their feedback. Of course, this exercise will help me to clearly
+articulate the thoughts in my mind as I navigate through the diagram.
+
+I have challenged myself to spend 10 minutes each day to draw a *class diagram*
+and a *sequence diagram* from my current project until I feel really comfortable
+to draw and describe them.
