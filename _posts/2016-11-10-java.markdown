@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Let's Java"
+date:   2016-11-10 10:42:51 +0100
+categories: apprenticeship
+---
+![image java koans]({{ site.url }}/assets/java.jpg)
+Here we are, after two months after have working with Ruby it's time for me to
+learn Java. Wikipedia's description of Java made me realise how different Java
+is completly different compared to Ruby, let's check how much.
+
+Here what I just read on Wikipedia:
+
+> Java is a dance which was developed in France in the early part of the 20th
+century. The origin of its name is uncertain, but it probably evolved from the
+valse.
+
+Joke aside, I don't know yet how different are those languages.
+The only different that I know so far it's that Ruby is a dynamic language
+mainwhile Java is a static language running on a *JVM*.
+
+Here is my current status:
+
+- IntelliJ IDE installed
+- Java 8 installed
+- Gradle 3.1 installed
+- 60% of the Java'koans done
+
+I can't wait to start to craft a software with this new language.
