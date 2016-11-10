@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What I Learnt From My First Porject As An Apprentice"
-date:   2016-11-07 10:42:51 +0100
+date:   2016-11-09 10:42:51 +0100
 categories: apprenticeship
 ---
 ![photo pen]({{ site.url }}/assets/pen.jpg)
