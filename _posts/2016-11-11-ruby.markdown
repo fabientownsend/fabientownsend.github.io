@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "Ruby, It's Not Over"
+date:   2016-11-11 10:42:51 +0100
+categories: apprenticeship
+---
+![c extension for ruby]({{ site.url }}/assets/c.jpg)
+My mentors have asked me to write my next project with Java, but I still have
+some experiments that I want to try with Ruby.
+
+I enjoyed Ruby as it's quick to set up a project and pleasant to use.
+For me, it is an ideal language to play with and that's why I want to
+try these experiments with Ruby.
+
+Here are the three projects that I want to do:
+
+1. **A Web Framwork**
+After my web Tic-Tac-Toe, I want to write a MVC web framework and have a better
+understanding of how a framework like [Sinatra](http://www.sinatrarb.com/) or
+[Ruby on Rails](http://rubyonrails.org/) really works.
+
+2. **A Website**
+After the MVC web framework has been implemented, I want to create a website
+with a well-known framework. I still don't know if I will try Sinatra or Ruby
+on Rails.
+
+I will probably then host it on my dedicated server or [Heroky](https://www.heroku.com).
+
+3. **A C Extension for Ruby**
+I quickly tried a basic C extension for Ruby. Now, I would like to try to write
+something that makes sense to be written in C in order to understand Ruby and
+its limits.
