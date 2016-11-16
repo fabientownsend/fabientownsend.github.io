@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Do It When It Worth It"
+date:   2016-11-15 10:42:51 +0100
+categories: apprenticeship
+---
+![kindle charching]({{ site.url }}/assets/kindle.jpg)
+Today, I start my second Java project which is... A TIC-TAC-TOE!!!
+I'm starting to be familliar with the Tic-Tac-Toe project, it's the third time
+I'm doing it.
+
+During the implementation of my tests of the class Board, the tests worked
+with the datastructure of the board. I planed to wrote a helper class later,
+like I did with my previous Tic-Tac-Toe. This helper class will avoid my tests
+to be refactored if the datastrucure of the board change and also make my tests
+more readable.
+
+At the end of the day I realised this: why did a wait the all day before implementing
+my helper? I had then to refactore each of my tests using helper and running
+my tests in order to check that I didn't break anything which was quite long.
+
+It would have totally worth that I start with my helper from the beginning,
+this way I wouldn't have avoid some refactoring, have a better abstraction and
+save time.
