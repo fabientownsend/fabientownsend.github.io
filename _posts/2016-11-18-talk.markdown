@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "First talk"
+date:   2016-11-18 10:42:51 +0100
+categories: apprenticeship
+---
+![kindle charching]({{ site.url }}/assets/sunshine.jpg)
+During my IPM, I received a new task: preparing a talk. The rules are simple:
+I have two days to prepare a 15 minute talk about a subject of my choice.
+
+This challenge will push me out of my comfort zone. I'm not used to talking in
+front of people. It will also be the first time that I perform a presentation
+in English - that's pretty stressful!
+
+I haven't fixed my mind on asubject yet, but I think talking about *design as a
+software crafter* could be great. As soon as I have a draft of the content, I
+will ask Christoph for as much feedback as possible in order to learn as much
+as I can so I can give a great talk.
