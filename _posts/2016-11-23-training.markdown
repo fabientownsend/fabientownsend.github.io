@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Stay Focused Or Waste Your Time"
+date:   2016-11-23 10:42:51 +0100
+categories: apprenticeship
+---
+![key reset keyboard]({{ site.url }}/assets/reset.jpg)
+There are now just two days until my presentation. I wrote 1/2 of the outline,
+practiced 1/4 and now, I also have to work on my Java project!
+
+Today, I spent most of my time working on my computer player algorithm. I
+finished it with the implementation of Minimax, which I then improved with alpha
+beta pruning. I expected to finish my computer player task faster, but I found
+it hard to focus knowing that I still hadn't finished the preparation for my
+talk. This lack of focus on my task resulted in silly mistakes over and over. I
+decided to start everything from scratch again as I felt it would waste less
+time.
+
+Next time, I will focus on one and only one task. This will save me precious
+time.
