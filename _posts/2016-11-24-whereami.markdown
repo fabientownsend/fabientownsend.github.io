@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Stay Focused"
+date:   2016-11-23 10:42:51 +0100
+categories: apprenticeship
+---
+![key reset keyboard]({{ site.url }}/assets/reset.jpg)
+How is it even possible that the week is nearly finished? This week was intense
+as I had to learn new abilities and continue with my  Java project. This could
+explain why the week passed so quickly.
+
+The main subjects I learnt/improved on this week at 8th Light are:
+
+- Writing
+- Preparing a presentation
+- Object Oriented Programming
+- TCP/IP
+
+During my commute, I also learnt about these subjects:
+
+- Algorithm
+- Data Structure
+- Problem Solving
+
+My tasks are mostly about OOP. I wonder if I should spend more time
+studying it. There are so many exciting subjects in computer science;
+it's really hard to stay focused on only one!
