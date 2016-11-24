@@ -4,7 +4,7 @@ title:  "Stay Focused"
 date:   2016-11-23 10:42:51 +0100
 categories: apprenticeship
 ---
-![first break all the rules book cover]({{ site.url }}/assets/break.jpg)
+![first break all the rules book cover]({{ site.url }}/assets/rules.jpg)
 How is it even possible that the week is nearly finished? This week was intense
 as I had to learn new abilities and continue with my  Java project. This could
 explain why the week passed so quickly.
