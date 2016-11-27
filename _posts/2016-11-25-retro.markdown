@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "Retrospective"
+date:   2016-11-25 10:42:51 +0100
+categories: apprenticeship
+---
+![cover note book]({{ site.url }}/assets/covere.jpg)
+I gave my first talk in English on Friday. So, let's talk about my thoughts and
+feedback that I received which could help me next time.
+
+I didn't faint and the talk went pretty well. In fact, people seemed to enjoy
+the subject. How awesome is that? OK, I don't feel I was amazing, but, it's a
+common feeling after experiencing a stressful situation. It could have went
+better but then we need to remember that we aren't objective.  I asked for
+feedback from Christoph and Enrique. Here are the main comments I received:
+
+- Speak slower during the presentation
+- Make transitions obvious in order to help the audience to know where we are in a presentation
+- The slides should reinforce the transition and points
+- Have a stronger conclusion
+- Take a glass of water as it can help to fill the blanks
+
+In addition, here are some ways that I feel could help me to improve:
+
+- Test the material I will use for the presentation
+- Train for my presentation **with** the slides
+- Make sure I can see what the current slide is
+- Not to be dependent on my notes; as soon as I started to read, I felt it was hard to stop
+
+I plan to keep working on improving this skill as it can be fun to train and
+useful not only for a public speech, but whenever you have to communicate.
