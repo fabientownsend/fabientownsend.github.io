@@ -4,7 +4,7 @@ title:  "Retrospective"
 date:   2016-11-25 10:42:51 +0100
 categories: apprenticeship
 ---
-![cover note book]({{ site.url }}/assets/covere.jpg)
+![cover note book]({{ site.url }}/assets/cover.jpg)
 I gave my first talk in English on Friday. So, let's talk about my thoughts and
 feedback that I received which could help me next time.
 
