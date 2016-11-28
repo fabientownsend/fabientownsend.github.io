@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "White Board"
+date:   2016-11-28 10:42:51 +0100
+categories: apprenticeship
+---
+![ice bar photo]({{ site.url }}/assets/ice.jpg)
+Tomorrow, we will try a new activity for 8th Light's apprentice. I'm excited
+about it as it as it was on of my suggestion.
+
+This activity will consist to solve problems, so far nothing new, but
+the format will be completly different. During 15 minutes we will work
+to solve a problem from "Cracking the coding Interview" with only one tool:
+a whiteboard.
+
+The main purpose is to improve the kind of questions we could ask abotu a new
+problem and learn how to communicate a solution. These skills are important
+when it comme to work in team.
+
+These excercises will also help to improve our:
+
+- Computer science skill
+- Data structure skill
+- Algorithm skill
