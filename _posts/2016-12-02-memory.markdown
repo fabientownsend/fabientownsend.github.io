@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "Memory Segmentation"
+date:   2016-12-02 10:42:51 +0100
+categories: apprenticeship
+---
+![book hacking the art of exploitation]({{ site.url }}/assets/memory.jpg)
+I have been reading about software security lately in my spare time. Here is what I learnt about
+a compiled program's memory. This knowledge also applies to Java, which is the most recent language that
+I'm learning at work.
+
+A compiled program's memory is split into five parts:
+
+- Text
+- Data
+- BSS
+- Heap
+- Stack
+
+Let's break down these parts.
+
+**Text**: this part is a read only section. It's composed of machine language instructions.
+
+**Data and BSS**: composed of the global and static variables. The data section has the initialised
+variable and bss the unitialised.
+
+Both of the previous parts have fixed memory sizes already allocated.
+
+**Heap**: This segment is where we, programmers, can direclty have control over the memory.
+For example, with C we will use Malloc and Free, but with a language like Java this section will be
+managed by the garbage collector. This section's size is not fixed.
+
+**Stack**: Like the heap, its size is dynamic. The stack is composed of different stack frames.
+Each of these stack frames are composed of: the parameters of the function, its variables, the
+saved frame pointer and the return address.
+
+At the moment, I don't know where I'm going with this new knowledge but it's pretty exciting!

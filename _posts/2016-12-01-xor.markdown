@@ -1,0 +1,67 @@
+---
+layout: post
+title:  "First knowledge about Crypto"
+date:   2016-12-01 10:42:51 +0100
+categories: apprenticeship
+---
+![Crypto 101]({{ site.url }}/assets/crypto.jpg)
+I have just started to learn about cryptogaphy. I don't know much so far,
+but I want to share what I have learnt so far in order to improve my understanding.
+
+Let's start with a new operator, XOR also called *exclusive or*.
+Developers should be familiar with both: OR and AND operators.
+Here are some example of these operators:
+
+```
+true AND true = true
+true AND false = false
+false AND true = false
+false AND false = false
+
+true OR true = true
+true OR false = true
+false OR true = true
+false OR false = false
+```
+
+Here is the behaviour of XOR:
+
+```
+true XOR true = false
+true XOR false = true
+false XOR true = true
+false XOR false = false
+```
+
+Now, let's convert these boolean with binary values.
+This will be useful for the next few examples.
+
+```
+1 XOR 1 = 0
+1 XOR 0 = 1
+0 XOR 1 = 1
+0 XOR 0 = 0
+```
+
+Let's use a more concrete example based on: Plaintext XOR Key = [Cyphertext](http://whatis.techtarget.com/definition/ciphertext).
+What is the cyphertext of 3 if the key is 5? First step, get the binary value
+of our plaintext and the key:
+
+3 = 0011
+5 = 0101
+
+0011 XOR 0101 = 0110
+
+and not we can convert the result into an integer:
+
+0110 = 6
+
+So, 3 XOR 5 = 6. We can also convert the Cyphertext into the original plaintext form with the same key.
+
+
+If you aren't excited by this way to encrypt and decrypt integer values, think
+that characters are integers and strings are an array of integers!
+
+This post is based on what I learnt through [Crypto101](https://www.crypto101.io/)
+
+Note: all these examples can be easily tested with irb by converting the *XOR* value by *^*.
