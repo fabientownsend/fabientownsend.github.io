@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "Naming"
+date:   2016-12-05 10:42:51 +0100
+categories: apprenticeship
+---
+![book hacking the art of exploitation]({{ site.url }}/assets/memory.jpg)
+Have you ever struggled to find a good name for your variables, methods or classes?
+Lately, I have received quite a bit of feedback surrounding this issue in my pull requests.
+That's why I have promised to explore this issue this week.
+
+Good names are necessary; they communicate your intention to other developers, and state the
+context of the content and document the code. This will result to a software easier to
+maintain. But how can I make a name informative and avoid to interpretation or hesitation.
+
+Here are some example of name improvement:
+
+Avoid wordy pharses
+```
+repeatElement(totalCharBoardWidth(board), INTER_LINE)
+```
+vs
+```
+repeatElement(widthOf(board), LINE_SEPARATOR)
+```
+
+Use strong verb:
+```
+Problem solvedProblem = SolutionToTheProblem(problem);
+```
+vs
+```
+Problem solvedProblem = Solve(problem);
+```
+
+Avoid vague words:
+```
+String sentence = Serialiser(sentence)
+```
+vs
+```
+String serialisedSentence = Serialiser(sentence);
+```
+
+During the week, I will use these different ressources and write about it.
+
+- [Domain Driven Design](https://www.infoq.com/minibooks/domain-driven-design-quickly)
+- Chapter 1 of [Essential Skills for the Agile Developer](https://www.amazon.co.uk/dp/toc/0321543734)
+- Chapter 2 of the [Clean Code](https://www.amazon.co.uk/dp/toc/0132350882)
+- Name++ from [CleanCoder.com](https://cleancoders.com/episode/clean-code-episode-2/show)
