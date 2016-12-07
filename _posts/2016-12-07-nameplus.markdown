@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "Namin++"
+date:   2016-12-07 10:42:51 +0100
+categories: apprenticeship
+---
+![video name++ uncle bob cleancoder.com]({{ site.url }}/assets/nameplus.jpg)
+Today, I continued researching how to select better names for my classes,
+functions and variables. So, I watched [Naming++]().
+
+Uncle Bob's video was helpful and complemented the principle of
+*coding by intention*, which I spoke about in my [previous post]().
+
+In fact, these two resources seem to be very much in agreeance as they both passionately
+assert that your names should communicate your intention. *Essential Skills for the Agile
+Developer* explains **how** to select a good name whereas Uncle Bob's video discusses **what**
+defines a good name.
+
+In its video he explains that if a name need comment, disinsforme, expect you to read the
+code to understand or is unprononcable. All result to be a bad name.
+
+Some useful principle that I noted:
+
+- Classes and variables shoudl be nouns
+- Methods should be verbs
+- Booleans (variables and methods) should be predicated
+- Enum should be adjectifs
+
+The length of a name will be impacted by its scope.
+For variables, big scope requires a long name, small scope requires a short name.
+
+Here is an example with a loop:
+
+```
+for (int i = 0; i < 10; i++) {
+  // stuff
+}
+```
+
+Classes and methods respect the opposite rule: big scope requires a short name, small
+scope requires a long name.

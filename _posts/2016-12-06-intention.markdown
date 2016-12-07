@@ -4,7 +4,7 @@ title:  "Coding By Intention"
 date:   2016-12-06 10:42:51 +0100
 categories: apprenticeship
 ---
-![book hacking the art of exploitation]({{ site.url }}/assets/memory.jpg)
+![cover Essential Skills for the Agile Developper]({{ site.url }}/assets/agilecover.jpg)
 Have you ever heard about: *coding by intention*? I read about it in the first
 chapter of the book *Essential Skills for the Agile Developper*. Let's see
 how this concept can help me to find better name for my variables, methods
