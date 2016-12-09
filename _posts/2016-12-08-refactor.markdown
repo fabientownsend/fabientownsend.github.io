@@ -4,7 +4,7 @@ title:  "Refactoring"
 date:   2016-12-08 10:42:51 +0100
 categories: apprenticeship
 ---
-![ice bar photo]({{ site.url }}/assets/ice.jpg)
+![cover book refactoring to pattern]({{ site.url }}/assets/refactortopattern.jpg)
 Refactoring - what a skill! It requires you to have a good understanding
 of overdesign, underdesign, and determines if the benefits of your
 modifications will outweigh the cost.
