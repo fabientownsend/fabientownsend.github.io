@@ -1,0 +1,132 @@
+---
+layout: post
+title:  "Refactoring"
+date:   2016-12-08 10:42:51 +0100
+categories: apprenticeship
+---
+![ice bar photo]({{ site.url }}/assets/ice.jpg)
+Refactoring - what a skill! It requires you to have a good understanding
+of overdesign, underdesign, and determines if the benefits of your
+modifications will outweigh the cost.
+
+There are two main times when I feel it is best to refactor.
+The first time is before implementing a feature if needed and
+the second is when I receive feedback on my pull request.
+
+Here are some points that I remain aware of when I refactor:
+
+Coding by intention and naming: this one is easy to apply with
+an IDE and doesn't take long.
+```
+repeatElement(totalCharBoardWidth(board), INTER_LINE)
+```
+
+```
+repeatElement(widthOf(board), LINE_SEPARATOR)
+```
+
+Delete redundancy: duplication isn't always abvious to detect,
+for example with magic number it can happen really quick. However,
+keep the control over the duplication before you lose it.
+
+
+```
+public enum Result {
+  TIMELIMIT(-2),
+  WIN(1),
+  LOST(-1),
+  TIE(0);
+
+  public final int value;
+
+  Result(final int value) {
+    this.value = value;
+  }
+}
+```
+or
+
+```
+rivate final double LIMIT_SECONDS_FOUND_MOVE = 0.1;
+```
+
+Reviews: it's the best way to learn from others. Whenever some code smell is
+pointed and you understand why it's a code smel, it's the good moment to refactor.
+
+```
+private static String convert(int gameType) {
+    if (gameType == 1) {
+        return "HUMANvsHUMAN";
+    } else if (gameType == 2) {
+        return "COMPUTERvsHUMAN";
+    } else if (gameType == 3) {
+        return "COMPUTERvsCOMPUTER";
+    } else {
+        return "HUMANvsHUMAN";
+    }
+}
+```
+
+```
+public enum GameTypes {
+    HUMAN_VS_HUMAN,
+    HUMAN_VS_COMPUTER,
+    COMPUTER_VS_COMPUTER,
+}
+```
+
+Encapsulation: here we don't modify the behavior but the design,
+it can be easily done with these four steps:
+
+- duplicate the code new place
+- use the methods at the new emplacement
+- launch your test
+- delete the inital code
+
+```
+public class CommandLineTest {
+
+  ...
+
+}
+
+public class IOExceptionThrower extends BufferedReader {
+  public IOExceptionThrower() {
+    super(new StringReader(""));
+  }
+
+  @Override
+    public String readLine() throws IOException {
+      throw new IOException();
+    }
+}
+
+
+become:
+
+public class CommandLineTest {
+
+  ...
+
+  private class IOExceptionThrower extends BufferedReader {
+    public IOExceptionThrower() {
+      super(new StringReader(""));
+    }
+
+    @Override
+      public String readLine() throws IOException {
+        throw new IOException();
+      }
+  }
+}
+```
+
+Refactoring can also be a good occasion to apply design pattern, as I'm not yet
+confortable with the subject I will dedicate a blog post about it later.
+
+## Conclusion
+
+I still have a lot to learn about refactoring, I would read again the book
+of Martin Fowler *Refactoring* as I don't remember it. I also borrow *Refactoring
+to Pattern* at the office which I'm excited to read as I don't know much
+about design apttern.
