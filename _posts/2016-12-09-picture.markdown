@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Build a Big Picture"
+date:   2016-12-09 10:42:51 +0100
+categories: apprenticeship
+---
+![kindle list]({{ site.url }}/assets/kindlelist.jpg)
+Have you ever felt that, you are learning something but you don't really know why?
+
+Like me, you may be a curious person who ends up learning about various subjects.
+Sometimes this curiousity leaves you asking yourself *why am I even learning that?*, and finally,
+you might even give up. Don't do that! By letting your mind be curious, you might be building a bigger
+picture of knowledge, and new knowledge doesn't always relate to what you already know.
+
+So, as a note for myself (maybe even you too): sooner or later different pieces of knowledge will work
+together to create a bigger picture.
