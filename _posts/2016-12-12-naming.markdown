@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "Review Your Names"
+date:   2016-12-12 10:42:51 +0100
+categories: apprenticeship
+---
+![kindle list]({{ site.url }}/assets/kindlelist.jpg)
+Here we are, it's my fourth post about naming, and I'm still searching to
+improve the name for my variables, methods and classes that I use.
+Here the new astuces that I found.
+
+Let's start with some reading. I found into the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+a section dedicated to the naming which give some good advice. Here what we can
+read:
+
+**Classes & Interfaces**
+> Class names are typically nouns or noun phrases. For example, Character or
+ImmutableList. Interface names may also be nouns or noun phrases (for example,
+List), but may sometimes be adjectives or adjective phrases instead (for
+example, Readable)
+
+**Methods**
+> Method names are typically verbs or verb phrases. For example, sendMessage or stop.
+
+**Parameter Names**
+> One-character parameter names in public methods should be avoided.
+
+Note that, those advices are similar to *Clean Code*.
+
+Another astuce that I find helpful. During my apprenticeship I spend most of
+my time exposed to my own code, so, I miss the opportunity to be influenced by
+better than me. Here is what I do now, reading open source code!
+
+A quick researche and you can find high quality code whish had wrote by
+high qualified engineer and reviewed.
+
+[Ruby repositories by 8th Light](https://github.com/8thlight?language=ruby)
+[Ruby repositories by AirBnB](https://github.com/airbnb?language=ruby)
+[Java repositories by Google](https://github.com/google?language=java)
+[Java repositories by Facebook](https://github.com/facebook?language=java)
+[Java repositories by Netflix](https://github.com/Netflix?language=java)
