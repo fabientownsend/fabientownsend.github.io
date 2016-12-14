@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Previous Mistakes"
+date:   2016-12-13 10:42:51 +0100
+categories: apprenticeship
+---
+![gradle web site]({{ site.url }}/assets/gradlesite.jpg)
+This week I'm working on a desktop Tic-Tac-Toe project, and for that I'm using
+the framework JavaFX. How can I reuse the code from my command-line Tic-Tac-Toe
+project?
+
+This scenario isn't really new: I previously wrote a command-line Tic-Tac-Toe
+project with Ruby and this was followed by a web version. This gave me the
+opportunity to avoid repeating previous mistakes such as writing temporary code
+just in order to check that it's working. Instead, I will create a library from
+the start and use it in the new project.
+
+This may seem like a waste of time now, but this will benefit me in the future.
+Saving time, the ability to test the library immediately and improve the
+cleanliness of the project - who can argue with that?!
+
+In order to create a library, I have to learn how to create, use a package with
+Java and configure the build tool. My first impression is that it seems more
+complicated to do this with Java than with Ruby.
