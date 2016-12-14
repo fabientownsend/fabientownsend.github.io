@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Quick Note"
+date:   2016-12-14 10:42:51 +0100
+categories: apprenticeship
+---
+![note book]({{ site.url }}/assets/notebook.jpg)
+Let's talk about two of the most amazing tools that a developer can use: a
+notebook and a pen.
+
+So, why are they amazing? These two tools work whatever your operating system
+is, whatever the language you are using and they will never deprecate.
+
+For quite a few weeks, I have written and drawn whenever I have had to solve a
+problem, or needed to analyse a situation. For example, Jarkyn paired with me
+on my project today; the first thing she grabbed wasn't a keyboard and she
+didn't started by coding. No, instead she borrowed my notebook! After
+she navigated through the code and asked me some questions, she was able to
+really help me in a short amount of time.
+
+I'm glad that I have her notes in my notebook. This is a good reminder that
+a notebook and a pen are two of the most efficient tools for a developer.
