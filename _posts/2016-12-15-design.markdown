@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Design"
+date:   2016-12-15 10:42:51 +0100
+categories: apprenticeship
+---
+![note book]({{ site.url }}/assets/notebook.jpg)
+I really need to learn about design pattern, that, was my feeling today.
+
+If coding was compared to playing chess, design pattern would be to
+know chess's strategy. I know a bit about design pattern,
+but if I know some of their names and how to implement a Factory, it's probably
+all.
+
+Today I had to create a class, let's call it Observer. The Observer purpose was
+to let know to A class if B, C or D class get updated. My implementation work, but I'm
+pretty sure that there is a design pattern for that. If I knew this desing parttern
+it would help me to work faster and probably to implement in a better way.
+
+Next challenge, improve my knowledge about design pattern.
