@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Underestimate JavaFX"
+date:   2016-12-16 10:42:51 +0100
+categories: apprenticeship
+---
+![note book]({{ site.url }}/assets/notebook.jpg)
+This week I planned to learn JavaFX and create a desktop Tic-Tac-Toe
+application with JavaFX for my apprenticeship. Unfortunately, I didn't meet the
+target. Why?
+
+I thought my week was going pretty well until Wednesday. In reality, my
+missunderstanding of the JavaFX framework was too great to enable me to finish
+my task on time.
+
+Other than coding, I did the following to help me achieve my goal:
+
+- Attempt to understand the situation with class diagram and sequence diagram
+- Ask for help from someone who has used the framework
+- Spend more time than expected on the task
+
+This helped me with my task however, it wasn't enough to help me to achieve my
+goal in time for my IPM presentation.
+
+Even if I'm disappointed, this week made me realise that I shouldn't
+underestimate the time dedicated to learn a new tool.
