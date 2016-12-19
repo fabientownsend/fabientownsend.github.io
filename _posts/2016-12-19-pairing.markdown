@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Is Pair Programming Like Code Review on Steriods?"
+date:   2016-12-19 10:42:51 +0100
+categories: apprenticeship
+---
+![note book]({{ site.url }}/assets/notebook.jpg)
+After I finish developing a feature or a fix, I then create a new pull request
+and ask people for feedback. Generally speaking, I can start implementing
+suggestions 24 hours after my pull request. This leaves me with 24 hours in
+which I can work an another task.
+
+This method creates a problem: if the next task doesn't require the full 24
+hours then I have to open another pull request without closing the prvious one.
+
+This is why pairing is fantastic! Both participants benefit from the immediacy
+and directness of this experience - you don't have to wait 24 hours to share
+your screen! Moreover, the feedback isn't limited to just the code as you can
+also discuss the refactoring process, the use of your text editor, etc.
+
+I can't decide which one is better. There are parameters that can make one
+better than the other depending on who you are working with and the context of
+the situation. One thing is for sure; both are worth trying for the good of your
+projects.
