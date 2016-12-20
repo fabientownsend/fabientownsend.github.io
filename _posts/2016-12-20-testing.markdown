@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Circular Dependency"
+date:   2016-12-20 10:42:51 +0100
+categories: apprenticeship
+---
+![note book]({{ site.url }}/assets/notebook.jpg)
+I finally managed to make my Tic-Tac-Toe core game work with my desktop GUI
+application. Testing the interface isn't as easy as unit testing, it was for
+this reason that I kept them for the end. What a terrible idea.
+
+As soon as I started to test my GUI, I could see that my application
+wasn't well desgign to be testable. Even worst, I implemented something
+called **circular dependency**:
+
+- The class A need the dependency of the class B.
+- The class B need the instance of the class A.
+
+In my Tic-Toe-Case case:
+
+- the Core game require to get the instance of the DesktopGUI
+- The DesktopGui require to get the instance of the Core game
+
+This required a *complicated* setup in my main, but it's even more complicated
+to set up for the tests! At this point I don't know any quick fix to improve
+the situation, I will probably need to extract the Core class dependency
+from the UI.
