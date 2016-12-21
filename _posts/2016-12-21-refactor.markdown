@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "Refactoring a Circular Dependency"
+date:   2016-12-21 10:42:51 +0100
+categories: apprenticeship
+---
+![note book]({{ site.url }}/assets/notebook.jpg)
+Yesterday, I explained how my desktop application was difficult to test. In order to
+make my application testable today, I spent some time to refactor my application.
+
+Here is the **circular dependency** which made my application difficult to test:
+
+- The Core game require to get the instance of the DesktopGUI
+- The DesktopGui require to get the instance of the Core game
+
+And here is what I wanted to solve my problem:
+
+- The Core game **doesn't** require the instance of the DesktopGUI
+- The DesktopGui require to get the instance of the Core game
+
+The Core class that use the GUI was also used by another application. So, I decided
+to duplcate this Core class and add V2 to its name. I proceeded to delete everything
+that used the DesktopGUI in the new class.
+
+By deleting this code, the desktop interface couldn't display messages to the player
+anymore, but the application was testable.
+
+When I wrote my tests I reimplemented the feature I deleted in my previous step, but this time
+directly in the DesktopGUI.
+
+This process require to do one step backward before two steps forward, which can be frustrating,
+but it worth it.
