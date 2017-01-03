@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Happy New Year!"
+date:   2017-01-03 10:42:51 +0100
+categories: apprenticeship
+---
+![note book]({{ site.url }}/assets/notebook.jpg)
+Happy New Year! This is my first post in 2017 after a one week
+break.
+
+In one of my last posts I spoke about a challenge that I am working on:
+learning design patterns. So far, so good. I now know:
+
+- Abstract Factory
+- Builder
+- Method Factory
+- Adapter
+- Bridge
+- Composite
+
+Most interestingly, I learnt that the implementation of a design pattern
+depends on the language and certain pattterns can have the same purpose.
+Of course, what you implement will depend on the state of the project.
