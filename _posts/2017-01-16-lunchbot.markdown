@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Lunch Bot!"
+date:   2017-01-16 10:42:51 +0100
+categories: apprenticeship
+---
+![note book]({{ site.url }}/assets/notebook.jpg)
+For the first time since I started my apprenticeship, I will work
+on a project with another person.
+
+We don't have the specific requirements of the project at the moment.
+The project will be to build a Slack bot that could manage the request for
+lunch on Fridays. It's not a lot of knowledge to work with but enough to learn
+about the Slack API.
+
+Good! Skim reading over the Slack documentation, creation of a web service
+with Ruby/Sinatra, upload on Heroku, configuration of the autotification
+OAuth and here we are, our bot replies *Hello* when speak to it.
+
+We haven't done much, and what we have done is quite basic. For now, we have
+enough information to be able to estimate our future tasks with the customer
+tomorrow.
