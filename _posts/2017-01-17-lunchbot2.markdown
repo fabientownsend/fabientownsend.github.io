@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Speed Learning"
+date:   2017-01-17 10:42:51 +0100
+categories: apprenticeship
+---
+![note book]({{ site.url }}/assets/notebook.jpg)
+For our new lunch bot project we deploy our Sinatra on Heroky.
+
+Neither Will nor me ever used Sinatra and Heroky before. In order to
+be get a project and learn those new tools as soon a possible,
+we started to code straight away. Those tools are really well documented
+which is pretty helpful. This make me think that we should document our
+project as well!
+
+In addition I watched two tutorial from [udacity](https://udacity.com/)
+dedicated to Sinatra and Heroku. As there videos are hosted on YouTube
+you can even watche them on speed x1.5, which save a good way to save
+some times!
