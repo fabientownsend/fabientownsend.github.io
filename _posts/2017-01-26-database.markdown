@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "ORM and database"
+date:   2017-01-26 10:42:51 +0100
+categories: apprenticeship
+---
+![note book]({{ site.url }}/assets/notebook.jpg)
+Today I come up with some difficulty about database, how the best way to
+save our data? I have no idea!
+
+The data that we have to save is meals, each meal belongs to a person which can
+be a crafter or a guest and finally, each guest belong to a crafter. How do I
+do that? I realised that my knowledge about database is really limited.
+
+And to be honest, with an ORM involved it doesn't helped, as I know it can
+produce really bad SQL request if it not used carefully.
+
+In order to have a better idea how I could understand and find out a *solution*
+I started to drawn some design on the whiteboard with Andrea. We find different
+solutions:
+
+- Map the entire class hierarchy to a single table
+- Map each concrete class to its own table
+- Map each class to its own table
+
+But still, whish is the best for our case? I fairly don't know yet. I feel like
+we will find our solution by simply trying.
+
+[explication database mapping object](http://www.agiledata.org/essays/mappingObjects.html)
