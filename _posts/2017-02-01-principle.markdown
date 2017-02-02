@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Break the Principles"
-date:   2017-01-26 10:42:51 +0100
+date:   2017-02-01 10:42:51 +0100
 categories: apprenticeship
 ---
 ![note book]({{ site.url }}/assets/notebook.jpg)
