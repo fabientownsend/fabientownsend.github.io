@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Slow Down"
+date:   2017-02-02 10:42:51 +0100
+categories: apprenticeship
+---
+![note book]({{ site.url }}/assets/notebook.jpg)
+Have you ever felt like you are in a tunnel of productivity? It's as though
+you feel like you can produce anything in a short amount of time and nothing
+can stop you. I certainly have.
+
+But, what if the feeling is an illusion? What if you have missed actioning some
+tasks as a result of this 'efficiency'? What if you were actually more harmful
+than productive?
+
+In order to avoid the illusion, I tell myself to slow down and I ask myself
+these question:
+
+- Are you really addressing the customer's needs?
+- Have you updated the documentation?
+- Do your Unit/Integration Tests cover all user cases?
+- Is the code secure?
+- Are the exceptions handled?
+- How is the user experience?
+- What about the fault tolerance?
+
+Let me know if you think of another question that you feel is important and I
+may even add it to my list.
