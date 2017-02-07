@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Personal Project"
+date:   2017-02-02 10:42:51 +0100
+categories: apprenticeship
+---
+![note book]({{ site.url }}/assets/notebook.jpg)
+I recently started a new side project in which I hope to improve my ability to
+teach others.
+
+Since I started learning to code two years ago, I'm lucky enough to have had
+amazing mentors. I wouldn't be where I am today without their teaching and
+guidance. That's why I now want to start to share what I have learnt.
+
+If I found my way to learning and understanding different subjetct,  I still
+need to find my way to share my knowledge. That's why I will work on this
+abilty in different ways: hosting some code on Github, writing explanations,
+ucreating YouTube videos, etc. By exploring these different paths, I hope to
+find the one I feel most comfortable working in.
+
+[Here is a Github where I explain data structures](https://github.com/fabientownsend/learn_algo_with_ruby)
