@@ -16,11 +16,11 @@ steps, each of them composed with "unit tests". The "unit tests" has two
 objectives: verify that you post matches your vision and make your post better.
 
 Here are the 5 steps:
-1 - Writing your brief
-2 - Writing your headline
-3 - Writing the body of your blog post
-4 - Writing your second draft
-5 - Writing your copy
+1. Writing your brief
+2. Writing your headline
+3. Writing the body of your blog post
+4. Writing your second draft
+5. Writing your copy
 
 [Grammarly](https://app.grammarly.com/)
 All along those steps, I am also using tools like: [Hemingway](http://www.hemingwayapp.com/)
@@ -33,14 +33,14 @@ after each iteration. We could compare these answers to the expectation of
 acceptance test.
 
 Here are the questions:
-1 - who am I writing for?
-2 - what does your reader expect from you?
-3 - what does your reader think before receiving this message?
-4 - What do you want your reader to think after they have received this message?
-5 - what do you want your reader to do?
-6 - what proposition are you making to your reader?
-7 - how do you back up the promise you have made?
-8 - which of your reader's other problems will your post solve?
+1. who am I writing for?
+2. what does your reader expect from you?
+3. what does your reader think before receiving this message?
+4. What do you want your reader to think after they have received this message?
+5. what do you want your reader to do?
+6. what proposition are you making to your reader?
+7. how do you back up the promise you have made?
+8. which of your reader's other problems will your post solve?
 
 When you have answered the questions, write the brief and ask for feedback.
 
