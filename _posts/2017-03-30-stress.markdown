@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "When the Stress is Pointless"
+date:   2017-03-30 14:42:51 +0100
+categories: apprenticeship
+---
+![notes for my speak]({{ site.url }}/assets/notes_speak.jpg)
+Have you ever been in a stressful situation? If so, you know that managing pressure isn't simple and thus, it's complicated to be at your best. In this blog post, I will attempt to describe how to take advantage of those situations.
+
+It exists many different reasons to stress, their common points? Your body check, your voice sounds weird or more dramatically you could faint. None of their reactions help to be at your best.
+
+What can we do to improve that? Whenever I have this feeling, I try to understand, what is the current situation? What can I do about it?
+
+It's likely impossible to solve a problem without understanding the situation. This is why at this point it is important to avoid to rush any answer. Instead, you can exploit the time disposed to increase your understanding by:
+
+- Rephrasing the problem
+- Asking opinions
+- Sharing your reasoning  
+
+The problem well understood, you can now improve your current situation. You can now start to relax.
+
+It can be stressful as well to find a correct solution, moreover when you have hight expectations. You may ask yourself: Is that solution good enough? What if it's not what they expect? What if they think that I am an idiot? The thing is, you can't know and that's why you should keep focusing on: does this solution solve the problem?
+
+It's important to stay pragmatic and remember that we are human. and in the worst case you have the ability to learn from your error.
