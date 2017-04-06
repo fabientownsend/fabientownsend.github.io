@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Law of the Instrument"
+date:   2017-04-06 14:42:51 +0100
+categories: apprenticeship
+---
+
+![Photo of the book offered by Christoph and Felipe]({{ site.url }}/assets/first_book.jpg)
+I wanted to write a blog post about three things that I believe Unit Test do not achieve. I think it is important to understand a tool and its limits. Like the law of the instrument says, you will incorrectly apply a tool to everything if its the only tool you know; you won't know its purpose and its limits. If all you have is a hammer, everything looks like a nail.
+
+# Tests =/= Quality
+I used to think that testing meant quality, but I soon found that this wasn't so. It is possible for bad code to have 100% test coverage. Your tests do not guarantee that you and your team are following the same guidelines, and even with this inconsistency, your tests can still pass. Your tests do not guarantee that your colleagues will be able to understand your code; the tests cannot check that you have coded with intention nor that you have selected the most appropriate names.  The issues that cannot be checked by your tests and that are not checked by you will increase the technical debt of your software. You have to pay attention to details yourself.
+
+It is also possible to meet this criteria without using any tests.
+
+
+# Tested software isn't bug-free
+When I wrote my unit tests, I thought their purpose was to help me deliver bug-free software. It's only later that I realised that both manual tests and unit tests will catch the same amount of bugs. Unit Tests are a better option as they will execute faster and therefore, they are cheaper. They won't guarantee that your software isn't bug free.
+
+
+# Test aren't an optional extra
+For a long time, I saw tests as a cherry on the cake. This approach is problematic as it means that you will not pay as much attention to is as the rest of the code. Tests are not optional; they are as important as the code that you have implemented. The tests require as much attention to detail because they work together with the code.
+
+You should avoid to be mislead by the purpose of a tool in order to gain a clear view of its limits. As the person in charge of the software, it's your job to understand your tools as much as the software that you work on.
