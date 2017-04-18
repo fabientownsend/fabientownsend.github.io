@@ -5,10 +5,10 @@ date:   2017-04-13 14:42:51 +0100
 categories: apprenticeship
 ---
 ![photo pen]({{ site.url }}/assets/pen.jpg)
-Testing has many benefits on your software, I thought "software quality" was one of them during a long time. It is true that unit tests encourage you to modularize your code and document it, but
-it doesn't check the quality of a code.
+Testing has many benefits on your software, I thought "software quality" was one of them for a long time. It is true that unit tests encourage you to modularize your code and document it, but
+it doesn't check the quality of your code.
 
-For example with this piece of code, despite the "100%" test coverage with a code which does its work, the code is bad in many ways.
+For example, although this piece of code has "100%" test coverage, the code is bad in many ways.
 
 ``` ruby
 class MathHelper
@@ -27,7 +27,7 @@ end
  end
 ```
 
-The code is inconsistent, don't follow any guideline, have a terrible naming. This code is way more complicated comparing to this one:
+The code is inconsistent: it doesn't follow any guidelines, has terrible naming, and is way more complicated compared to this one:
 
 ``` ruby
 class Factorial
